@@ -1,0 +1,90 @@
+.header {
+    background-color: var(--verde);
+    width: 100%;
+    height: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.logo {
+    font-size: 35px;
+    color:rgb(180, 67, 224);
+    font-family: fantasy;
+}
+
+.contenedor {
+    margin-right: 75px;
+}
+
+.menu {
+    list-style: nome;
+    display: flex;
+}
+
+.menu {
+    margin: 10px;
+    text-decoration: nome;
+    color: var(--blue);
+    font-family: fantasy;
+    font-size: 20px;
+    padding: 15px;
+    
+}
+
+.menu a:hover {
+    border-radius: 25px;
+    background-color: crimson;
+    transition: 800ms;
+}
+
+.titulo {
+    color: rgb(39, 67, 190);
+    font-size: 115px;
+    margin-top: 75px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.tarjeta {
+    margin: 10px;
+    border: 4px dotted black;
+    border-radius: 50px;
+    padding: 20px;
+    display: flex;
+    width: 525px;
+    height: 210px;
+    background-color: rgb(172, 186, 235);
+}
+
+.tarjeta img {
+    width: 480px;
+    border-radius: 85px;
+    margin-right: 15px;
+}
+
+body {
+    background-color: rgb(190, 209, 158);
+}
+
+.contenido h3 {
+    color: black;
+    font-size: 22px;
+    text-align: center;
+}
+
+.contenido p {
+    text-align: justify;
+    color:black;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
